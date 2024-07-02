@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-color1 {
+    color: #aa2281;
+}
+
+.text-color2 {
+    color: #752b84;
+}
+
+.img-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+.backg {
+    background-color: #aa2281;
+}
+
+.heading-text-color {
+    color: #b82282;
+}
+
+.p-text-color {
+    color: #702e82;
+    font-weight: 400;
+}
+
+.backg-gradients {
+    background-image: linear-gradient(to right, #752b84, #b82282);
+}
+
+.text-gradients {
+    background-image: linear-gradient(to right, #b82282, #752b84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-hover {
+    color: white;
+}
+
+.btn-hover:hover {
+    background-color: white;
+    color: #752b84;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 10px rgb(201, 199, 199), -2px -2px 10px rgb(201, 199, 199);
+}
+
+.web-desining-bg-img {
+    background-image: url('../images/COURSE_PAGR_BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+  }
+
+/* right-form */
+.form-bg-img {
+    background-image: url('images/form_bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 10px rgb(201, 199, 199), -2px -2px 10px rgb(201, 199, 199);
+}
+
+/* Custom styles to remove active color from the accordion button */
+.accordion-button:not(.collapsed) {
+    background-color: initial !important;
+    color: initial !important;
+}
+
+.accordion-button {
+    color: #702e82;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.accordion-body {
+    color: #b82282;
+    font-weight: 400;
+}
+
+/* Custom styles to remove border from the accordion button */
+.accordion-button {
+    border: none;
+}
+
+@media(min-width:768px) {
+    #courseDropdown:hover .dropdown-menu {
+        display: block;
+        position: absolute;
+        left: 55%;
+        top: 70%;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-nav .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.dropdown-item:hover {
+    background-color: #75457e;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #752b84;
+}
+
+.gradient1 {
+    background-image: linear-gradient(to right, #752b84, #aa2281, #b82283);
+}
+
+.gradient2 {
+    background-image: linear-gradient(to left, #752b84, #aa2281, #b82283);
+}
+
+.gradient3 {
+    background-image: linear-gradient(to top, #752b84, #aa2281, #b82283);
+}
+
+.icon {
+    color: #b82283;
+}
+
+.icon2 {
+    color: #752b84
+}
+
+.firstbu a {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+@media (max-width: 767px) {
+    .firstbu a {
+        font-size: 13px;
+        left: 5%;
+        transform: translateX(-5%);
+    }
+}
+
+@media (max-width: 480px) {
+    .firstbu a {
+        font-size: 8px;
+        top: 75%;
+        left: 3%;
+        transform: translate(-3%, -3%);
+    }
+}
+
+.firstbu:hover {
+    background-color: #752b84;
+    color: white;
+}
+
+.text {
+    background-image: linear-gradient(to right, #752b84, #b82283);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.text2 {
+    background-image: linear-gradient(to left, #752b84, #b82283);
+    background-clip: text;
+    color: transparent;
+}
+
+.crd {
+    background-color: rgb(243, 242, 242);
+}
+
+.crd:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px #752b84;
+    color: #8f2e85;
+}
+
+.picbg {
+    background-color: #edeaf3;
+}
+
+@media(min-width:768px) {
+    #courseDropdown:hover .dropdown-menu {
+        display: block;
+        position: absolute;
+        left: 55%;
+        top: 70%;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-nav .nav-item:hover .dropdown-menu {
+        display: block;
+
+    }
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.dropdown-item:hover {
+    background-color: #75457e;
+    color: white;
+}
+   
+.nav-link:hover {
+    color: #752b84;
+}
+
+.dropdown:hover .dropdown-menu {
+    animation: slideIn 2s ease-in-out;
+}
+
+.navbar-nav>li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav>li.nav-item:hover>a.nav-link {
+    border-bottom: 1px solid #b82283;
+}
+.lho:hover{
+    border-bottom: 2px white solid;
+}
